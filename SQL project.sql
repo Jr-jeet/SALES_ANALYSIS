@@ -24,8 +24,11 @@ from xyz.`sales dataset`
 group by CustomerName
 order by count(*) DESC;
 
-select count(*),CustomerName
-from xyz.`sales dataset`
+SELECT COUNT(Quantity),CustomerName
+FROM xyz.`sales dataset`
+group by CustomerName
+order by count(Quantity) DESC;
+
 group by CustomerName
 order by count(*) DESC;
 
