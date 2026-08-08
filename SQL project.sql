@@ -24,13 +24,14 @@ from xyz.`sales dataset`
 group by CustomerName
 order by count(*) DESC;
 
-SELECT COUNT(Quantity),CustomerName
-FROM xyz.`sales dataset`
-group by CustomerName
-order by count(Quantity) DESC;
-
 group by CustomerName
 order by count(*) DESC;
 
-select max(Profit),Sub-Category
-from xyz.`sales dataset`;
+ select count(*),PaymentMode
+ from xyz.`sales dataset`
+ group by PaymentMode
+ order by count(*) DESC;
+
+
+
+
