@@ -35,5 +35,8 @@ order by count(*) DESC;
 select count(*) as total_order
 from xyz`sales dataset`;                     
 
-
+select count(*) , City
+from xyz.`sales dataset`
+group by City
+order by count(*) DESC;
 
