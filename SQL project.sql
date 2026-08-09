@@ -4,6 +4,7 @@ sum(Profit) as total_profit
 from xyz.'sales dataset'
 group by category 
 order by total_profit DESC;
+
 show tables
   
 select avg(profit)
@@ -24,14 +25,15 @@ from xyz.`sales dataset`
 group by CustomerName
 order by count(*) DESC;
 
-group by CustomerName
-order by count(*) DESC;
+
 
  select count(*),PaymentMode
  from xyz.`sales dataset`
  group by PaymentMode
  order by count(*) DESC;
 
+select count(*) as total_order
+from xyz`sales dataset`;                     
 
 
 
