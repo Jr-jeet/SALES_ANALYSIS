@@ -44,3 +44,17 @@ order by count(*) DESC;
 
  select sum(Quantity) 
  from xyz.`sales dataset`;
+
+
+ select count(*),Category
+ from xyz.`sales dataset`
+ group by Category
+ order by Category DESC;
+
+
+
+
+
+
+
+
