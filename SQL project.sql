@@ -41,3 +41,6 @@ from xyz.`sales dataset`
 group by City
 order by count(*) DESC;
 
+
+ select sum(Quantity) 
+ from xyz.`sales dataset`;
