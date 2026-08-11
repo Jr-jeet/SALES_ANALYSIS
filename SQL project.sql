@@ -52,7 +52,11 @@ order by count(*) DESC;
  order by Category DESC;
 
 
-
+ select count(*),Category,
+ sum(Profit)
+ from xyz.`sales dataset`
+ group by Category
+ order by Category DESC limit 1;
 
 
 
