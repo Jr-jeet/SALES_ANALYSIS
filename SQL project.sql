@@ -59,6 +59,10 @@ order by count(*) DESC;
  order by Category DESC limit 1;
 
 
-
+ select count(*),CustomerName,
+sum(Quantity)
+ from xyz.`sales dataset`
+ group by CustomerName
+ order by CustomerName ASC limit 10;
 
 
